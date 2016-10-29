@@ -1,0 +1,8 @@
+<h1>Cutter</h1>
+<ul>
+    {% for cutter in object_list %}
+    <li>{{ cutter.updated_date|date }} {{ cutter.name }}</li>
+    {{ cutter.image }} {% empty %}
+    <li>No Cutter yet.</li>
+    {% endfor %}
+</ul>

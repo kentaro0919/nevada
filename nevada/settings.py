@@ -127,3 +127,5 @@ STATIC_URL = '/static/'
 # my Settings.
 #
 INTERNAL_IPS = '127.0.0.1'
+
+MEDIA_ROOT = "/Users/kentaro/Desktop/nevada/media/"
