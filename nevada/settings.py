@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # 3rd party apps
     'debug_toolbar',
     # my apps
+    'cookiecutter.apps.CookiecutterConfig'
 ]
 
 MIDDLEWARE = [
